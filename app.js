@@ -1,19 +1,25 @@
 // function declaration
 function welcome() {
+    // function
 
     alert("we are proud to be here");
 }
 
 welcome();
+// if statment 
+
 
 var bestOption = '';
-var userBudget = prompt('How much is your bidget?');
+var userBudget = prompt('How much is your budget?');
 console.log(userBudget);
-if (userBudget < 200) { bestOption = 'oppo and Huawei'; }
-else if (userBudget < 400) { bestOption = 'samsung'; }
-else if (userBudget < 400) { bestOption = 'Iphone'; }
-alert('Best Opthion' + bestOption);
 
+if (userBudget <= 200) { bestOption = 'The best options for you are oppo or Huawei'; }
+else if (userBudget <= 400) { bestOption = 'The best option for you is samsung'; }
+else { bestOption = 'The best option for you is Iphone'; }
+alert(bestOption);
+
+document.write('remamer: ' + bestOption)
+// finish if practice 
 
 var userSystem = prompt('Do you want IOS or Android?');
 
