@@ -1,3 +1,11 @@
+// function declaration
+function welcome() {
+
+    alert("we are proud to be here");
+}
+
+welcome();
+
 var bestOption = '';
 var userBudget = prompt('How much is your bidget?');
 console.log(userBudget);
@@ -21,7 +29,7 @@ if (userSystem === 'IOS') {
     image = '<img src="android.jpg" />';
 }
 
-for (var i = 0; i < NumberOfImage ; i++) {
+for (var i = 0; i < NumberOfImage; i++) {
     console.log(i);
     document.write(image);
 
